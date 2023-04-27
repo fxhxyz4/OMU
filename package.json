@@ -1,0 +1,50 @@
+{
+	"name": "OMU",
+	"version": "1.0.0",
+	"description": "Open Multiple Urls",
+	"keywords": [
+		"urls",
+		"open urls",
+		"browser ext",
+		"extension",
+		"webpack",
+		"open multiple",
+		"open multiple urls"
+	],
+	"type": "module",
+	"main": "index.js",
+	"author": {
+		"name": "fxhxyz4",
+		"email": "fxhxyz@proton.me",
+		"url": "https://fxhxyz.vercel.app/"
+	},
+	"homepage": "https://fxhxyz4.github.io/OMU/",
+	"bugs": "https://github.com/fxhxyz4/OMU/issues",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/fxhxyz4/OMU.git"
+	},
+	"maintainers": [
+		{
+			"name": "fxhxyz4",
+			"email": "fxhxyz@proton.me"
+		}
+	],
+	"license": "ISC",
+	"scripts": {
+		"css": "css-minify -f ./src/styles/global.css -o ./src/styles/",
+		"webpack:watch": "webpack -c ./webpack.config.js -w",
+		"webpack:prod": "webpack -c ./webpack.config.js",
+		"prod": "npm run css && npm run webpack:prod"
+	},
+	"dependencies": {
+		"css-minify": "^2.0.0"
+	},
+	"devDependencies": {
+		"webpack": "^5.81.0",
+		"webpack-cli": "^5.0.2"
+	},
+	"engines": {
+		"node": "18.x"
+	}
+}

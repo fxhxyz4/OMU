@@ -4,9 +4,16 @@ html {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 500;
-	font-style: normal;
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
 	color: #fff;
 	background-color: #000;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 }
 *,
 *::before,
@@ -15,10 +22,19 @@ html {
 	margin: 0;
 	padding: 0;
 }
-a {
-	text-decoration: none;
-	color: inherit;
+.main__title {
+	padding-top: 40px;
 }
-ul {
-	list-style-type: none;
+.main__box {
+	margin-top: 20px;
+}
+.main__input {
+	padding: 10px 10px;
+	width: 240px;
+	height: 160px;
+	resize: none;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	overflow: hidden;
 }

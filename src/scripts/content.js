@@ -2,17 +2,15 @@ console.clear();
 
 import refs from './modules/refs.js';
 import validation from './modules/validation.js';
-import openUrls from './modules/openUrls.js';
-
-let array = [];
 
 refs.formEl.addEventListener('submit', e => {
 	e.preventDefault();
 
-	const inputValue = refs.inputEl.value.trim();
-	array.push(inputValue);
+	const inputValue = String(refs.inputEl.value.trim());
+	const urls = inputValue.split('http://');
 
-	validation(array);
+	const result = urls.slice(1).map(url => `http://${url}`);
+	validation(result);
 
 	refs.formEl.reset();
 });

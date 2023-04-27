@@ -11,11 +11,10 @@ export default function validation(array) {
 
 			if (string.includes(include) === false) {
 				console.error(`[error] invalid urls`);
-				return;
+			} else {
+				openUrls(string);
+				console.log(string);
 			}
 		}
-	} else {
-		console.log(array);
-		openUrls(array);
 	}
 }

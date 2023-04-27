@@ -2,6 +2,7 @@ console.clear();
 
 import refs from './modules/refs.js';
 import validation from './modules/validation.js';
+import openUrls from './modules/openUrls.js';
 
 let array = [];
 

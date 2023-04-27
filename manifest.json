@@ -20,12 +20,5 @@
 		"32": "./src/img/icon.png",
 		"48": "./src/img/icon.png",
 		"128": "./src/img/icon.png"
-	},
-	"content_scripts": [
-		{
-			"run_at": "document_start",
-			"js": ["./src/scripts/content.js"],
-			"css": ["./src/styles/global.min.css"]
-		}
-	]
+	}
 }

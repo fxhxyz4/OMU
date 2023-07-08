@@ -2,7 +2,8 @@
 
 ### v1.0.2
 
-- small changes
+- add chrome.tabs.create
+- delete window.open
 
 ### v1.0.1
 

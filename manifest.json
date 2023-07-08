@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "OMU",
 	"description": "Open Multiple Urls",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "fxhxyz",
 	"homepage_url": "https://fxhxyz4.github.io/OMU/",
 	"action": {
@@ -20,5 +20,8 @@
 		"32": "./src/img/icon.png",
 		"48": "./src/img/icon.png",
 		"128": "./src/img/icon.png"
-	}
+	},
+  "permissions": [
+    "tabs"
+  ]
 }

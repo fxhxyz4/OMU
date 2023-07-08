@@ -1,5 +1,9 @@
 ## changelog
 
+### v1.0.2
+
+- small changes
+
 ### v1.0.1
 
 - add esbuild

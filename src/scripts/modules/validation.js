@@ -7,16 +7,17 @@ export default function validation(array) {
 		return;
 	}
 
-	if (array) {
-		for (const arr of array) {
-			let string = String(arr);
+  array.push('https://github.com/fxhxyz4');
+  console.info(array);
 
-			if (string.includes(include) === false) {
-				console.error(`[error] invalid urls`);
+	if (array) {
+    array.forEach(arr => {
+      if (!arr.includes(include)) {
+				console.error(`[error] invalid url: ${arr}`);
 			} else {
-				openUrls(string);
-				console.log(string);
+				console.log(arr);
+        openUrls(arr);
 			}
-		}
+    });
 	}
 }

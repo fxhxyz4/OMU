@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env python
 
 import { build } from 'esbuild';
 

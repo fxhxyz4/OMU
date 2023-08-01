@@ -1,5 +1,9 @@
 ## changelog
 
+### v1.0.3
+
+- small changes
+
 ### v1.0.2
 
 - add chrome.tabs.create

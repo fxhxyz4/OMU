@@ -2,7 +2,7 @@
 
 ### v1.0.4
 
-- added [website](https://omu.vercel.app)
+- added [website](https://omu-beta.vercel.app)
 
 ### v1.0.3
 

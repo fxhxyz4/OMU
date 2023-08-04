@@ -1,5 +1,9 @@
 ## changelog
 
+### v1.0.4
+
+- added [website](https://omu.vercel.app)
+
 ### v1.0.3
 
 - small changes

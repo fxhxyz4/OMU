@@ -48,7 +48,7 @@ const Home = () => {
 			</Head>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href='https://github.com/fxhxyz4/OMU' target={'blank'} rel={'noopener, noreferrer, nofollow'}>
+          <a href='https://github.com/fxhxyz4/OMU' target={'blank'} rel={'noopener, noreferrer'}>
             OMU
           </a>
         </h1>
@@ -57,7 +57,7 @@ const Home = () => {
           <ul className={styles.list}>
           {browser && (
               <li className={styles.item}>
-                <a className={styles.fontbrands} href={browserLinks[browser]} target={'blank'} rel={'noopener, noreferrer, nofollow'}>
+                <a className={styles.fontbrands} href={browserLinks[browser]} target={'blank'} rel={'noopener, noreferrer'}>
                   {browser === 'Firefox' && <FontAwesomeIcon icon={faFirefox} title='Firefox' />}
                   {browser === 'Chrome' && <FontAwesomeIcon icon={faChrome} title='Google Chrome' />}
                   {browser === 'Opera' && <FontAwesomeIcon icon={faOpera} title='Opera' />}

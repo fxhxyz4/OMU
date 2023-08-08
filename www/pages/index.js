@@ -34,7 +34,7 @@ const Home = () => {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<meta charset='UTF-8' />
+				<meta charSet='UTF-8' />
 				<meta http-equiv='X-UA-Compatible' content='IE=edge' />
 				<meta name='viewport' content='width=device-width, initial-scale=1.0' />
 				<meta name='title' content='Open Multiple Urls' />
@@ -42,7 +42,7 @@ const Home = () => {
 				<meta name='description' content='Open Multiple Urls' />
 				<meta name='keywords' content='urls, extension, chrome, firefox, open multiple, open urls' />
         <meta name="darkreader" content="NO-DARKREADER-PLUGIN" />
-				<meta name='robots' content='index' />
+				<meta name='robots' content='index, follow' />
         <link href="https://unpkg.com/modern-normalize@2.0.0/modern-normalize.css" rel="stylesheet" />
 				<title>OMU</title>
 			</Head>
@@ -52,7 +52,7 @@ const Home = () => {
             OMU
           </a>
         </h1>
-        <p className={styles.download}>Download for {browser}</p>
+        <h2 className={styles.download}>Download for {browser}</h2>
         <div className={styles.browsers}>
           <ul className={styles.list}>
           {browser && (
@@ -65,7 +65,8 @@ const Home = () => {
                 </a>
               </li>
             )}
-            <select className={styles.select} value={browser} onChange={(e) => setBrowser(e.target.value)}>
+            <label htmlFor="browserSelect" className={styles.hidden}>Choose a browser:</label>
+            <select id="browserSelect" className={styles.select} value={browser} onChange={(e) => setBrowser(e.target.value)}>
               <option value="Firefox">Firefox</option>
               <option value="Chrome">Chrome</option>
               <option value="Opera">Opera</option>

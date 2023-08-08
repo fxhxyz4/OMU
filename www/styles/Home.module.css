@@ -3,6 +3,10 @@
 	margin-bottom: 110px;
 	font-size: 45px;
 }
+.hidden {
+	display: none;
+	pointer-events: none;
+}
 @media screen and (min-width: 100px) and (max-width: 840px) {
 	.title {
 		font-size: 30px;

@@ -30,7 +30,7 @@
 			"email": "fxhxyz@proton.me"
 		}
 	],
-	"license": "ISC",
+	"license": "MPL-2.0",
 	"scripts": {
 		"css": "css-minify -f ./src/styles/global.css -o ./src/styles/",
 		"es:p": "./esbuild.config.js",

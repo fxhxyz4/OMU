@@ -4,7 +4,7 @@
 	"description": "Open Multiple Urls",
 	"version": "1.0.3",
 	"author": "fxhxyz",
-	"homepage_url": "https://fxhxyz4.github.io/OMU/",
+	"homepage_url": "https://omu-beta.vercel.app",
 	"action": {
 		"default_icon": {
 			"16": "./img/icon.png",

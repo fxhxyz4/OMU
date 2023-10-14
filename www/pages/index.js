@@ -47,7 +47,7 @@ const Home = () => {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
 				<title>OMU</title>
 			</Head>
-      <body className="animate__animated animate__fadeIn animate__slower">
+      <div className="animate__animated animate__fadeIn animate__slower">
         <main className={styles.main}>
           <h1 className={styles.title}>
             <a href='https://github.com/fxhxyz4/OMU' target={'blank'} rel={'noopener, noreferrer'}>
@@ -77,7 +77,7 @@ const Home = () => {
   					</ul>
           </div>
         </main>
-      </body>
+      </div>
     </div>
   );
 }

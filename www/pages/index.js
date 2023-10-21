@@ -19,6 +19,8 @@ const Home = () => {
       parsedBrowser = 'Opera';
     } else if (userAgent.includes('Edge')) {
       parsedBrowser = 'Edge';
+    } else if (userAgent.includes('Brave')) {
+      parsedBrowser = 'Brave';
     }
 
     setBrowser(parsedBrowser);
@@ -29,6 +31,7 @@ const Home = () => {
     'Chrome': 'https://chrome.google.com/webstore/',
     'Opera': 'https://chrome.google.com/webstore/',
     'Edge': 'https://chrome.google.com/webstore/',
+    'Brave': 'https://chrome.google.com/webstore/',
   };
 
 	return (
@@ -64,6 +67,7 @@ const Home = () => {
                     {browser === 'Chrome' && <FontAwesomeIcon icon={faChrome} title='Google Chrome' />}
                     {browser === 'Opera' && <FontAwesomeIcon icon={faOpera} title='Opera' />}
                     {browser === 'Edge' && <FontAwesomeIcon icon={faEdge} title='Microsoft Edge' />}
+                    {browser === 'Brave' && <FontAwesomeIcon icon={faChrome} title='Brave' />}
                   </a>
                 </li>
               )}

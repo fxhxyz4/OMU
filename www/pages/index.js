@@ -3,7 +3,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChrome, faFirefox, faOpera, faEdge } from '@fortawesome/free-brands-svg-icons';
-import 'animate.css/animate.min.css';
+import 'animate.css';
 
 const Home = () => {
   const [browser, setBrowser] = useState('');

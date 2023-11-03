@@ -21,9 +21,6 @@
 	.item {
 		margin-right: 28px !important;
 	}
-	.item:last-child {
-		display: none;
-	}
 	.item_last {
 		margin-right: 0 !important;
 	}

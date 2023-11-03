@@ -51,17 +51,16 @@
 	color: rgb(177, 177, 177);
 	transition: color 306ms ease;
 }
-.item:last-child {
-	margin-right: 0 !important;
-}
 .item:hover,
 .item:focus {
 	color: rgb(223, 223, 223);
 }
 .download {
-	margin-bottom: 25px;
 	font-size: 32px;
 }
 .browsers {
+	display: flex;
+  justify-content: center;
+  align-items: center;
 	font-size: 100px;
 }

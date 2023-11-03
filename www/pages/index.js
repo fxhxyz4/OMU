@@ -47,7 +47,7 @@ const Home = () => {
         <link href="https://unpkg.com/modern-normalize@2.0.0/modern-normalize.css" rel="stylesheet" />
 				<title>OMU</title>
 			</Head>
-      <div className={`${animate__animated} ${animate__fadeIn} ${animate__slower}`}>
+      <div className="animate__animated animate__fadeIn animate__slower">
         <main className={styles.main}>
           <h1 className={styles.title}>
             <a href='https://github.com/fxhxyz4/OMU' target={'blank'} rel={'noopener, noreferrer'}>

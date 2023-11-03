@@ -59,19 +59,20 @@ const Home = () => {
           {browser && (
               <li className={styles.item}>
                 <a className={styles.fontbrands} href={browserLinks[browser]} target={'blank'} rel={'noopener, noreferrer'}>
-                  {browser === 'Firefox' && <FontAwesomeIcon icon={faFirefox} title='Firefox' />}
-                  {browser === 'Chrome' && <FontAwesomeIcon icon={faChrome} title='Google Chrome' />}
-                  {browser === 'Opera' && <FontAwesomeIcon icon={faOpera} title='Opera' />}
-                  {browser === 'Edge' && <FontAwesomeIcon icon={faEdge} title='Microsoft Edge' />}
+                  {browser === 'Firefox' && <FontAwesomeIcon icon={faFirefox} alt="Firefox icon" title='Firefox' />}
+                  {browser === 'Chrome' && <FontAwesomeIcon icon={faChrome} alt="Chrome icon" title='Google Chrome' />}
+                  {browser === 'Opera' && <FontAwesomeIcon icon={faOpera} alt="Opera icon" title='Opera' />}
+                  {browser === 'Edge' && <FontAwesomeIcon icon={faEdge} alt="Ms Edge icon" title='Microsoft Edge' />}
                 </a>
               </li>
             )}
             <label htmlFor="browserSelect" className={styles.hidden}>Choose a browser:</label>
             <select id="browserSelect" className={styles.select} value={browser} onChange={(e) => setBrowser(e.target.value)}>
-              <option value="Firefox">Firefox</option>
-              <option value="Chrome">Chrome</option>
+              <option value="" disabled>Select a browser</option>
+              <option value="Firefox">Mozilla Firefox</option>
+              <option value="Chrome">Google Chrome</option>
               <option value="Opera">Opera</option>
-              <option value="Edge">Edge</option>
+              <option value="Edge">Microsoft Edge</option>
             </select>
 					</ul>
         </div>

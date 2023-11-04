@@ -12,14 +12,19 @@ const Home = () => {
     const userAgent = navigator.userAgent;
     let parsedBrowser = '';
 
-    if (userAgent.includes('Firefox')) {
-      parsedBrowser = 'Firefox';
-    } else if (userAgent.includes('Chrome')) {
-      parsedBrowser = 'Chrome';
-    } else if (userAgent.includes('Opera')) {
-      parsedBrowser = 'Opera';
-    } else if (userAgent.includes('Edge')) {
-      parsedBrowser = 'Edge';
+    switch (1) {
+      case userAgent.includes('Firefox'):
+        parsedBrowser = 'Firefox';
+        break;
+      case userAgent.includes('Chrome'):
+        parsedBrowser = 'Chrome';
+        break;
+      case userAgent.includes('Opera'):
+        parsedBrowser = 'Opera';
+        break;
+      case userAgent.includes('Edge'):
+        parsedBrowser = 'Edge';
+        break;
     }
 
     setBrowser(parsedBrowser);

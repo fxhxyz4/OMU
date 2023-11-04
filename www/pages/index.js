@@ -12,7 +12,7 @@ const Home = () => {
     const userAgent = navigator.userAgent;
     let parsedBrowser = '';
 
-    switch (1) {
+    switch (true) {
       case userAgent.includes('Firefox'):
         parsedBrowser = 'Firefox';
         break;

@@ -75,7 +75,6 @@ const Home = () => {
   					</ul>
             <label htmlFor="browserSelect" className={styles.hidden}>Choose a browser:</label>
             <select id="browserSelect" className={styles.select} value={browser} onChange={(e) => setBrowser(e.target.value)}>
-              <option value="" disabled>Select a browser</option>
               <option value="Firefox">Mozilla Firefox</option>
               <option value="Chrome">Google Chrome</option>
               <option value="Opera">Opera</option>

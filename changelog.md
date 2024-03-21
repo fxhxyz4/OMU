@@ -1,5 +1,9 @@
 ## changelog
 
+### v1.0.5
+
+- update css
+
 ### v1.0.4
 
 - added [website](https://omu-beta.vercel.app)

@@ -1,4 +1,4 @@
 ### Open Multiple Urls Extension
-#### - [website](https://omu-beta.vercel.app)
+#### - [website](https://fxhxyz-extensions.vercel.app)
 #### - [license](./license.md)
 #### - [changelog](./changelog.md)

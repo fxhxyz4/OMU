@@ -1,6 +1,6 @@
 {
 	"name": "OMU",
-	"version": "1.0.5",
+	"version": "1.1.0",
 	"description": "Open Multiple Urls1",
 	"keywords": [
 		"urls",
@@ -18,7 +18,7 @@
 		"email": "fxhxyz@proton.me",
 		"url": "https://fxhxyz.vercel.app/"
 	},
-	"homepage": "https://fxhxyz4.github.io/OMU/",
+	"homepage": "https://fxhxyz-extensions.vercel.app/",
 	"bugs": "https://github.com/fxhxyz4/OMU/issues",
 	"repository": {
 		"type": "git",

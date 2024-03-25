@@ -12,7 +12,7 @@ refs.formEl.addEventListener('submit', e => {
 	const result = urls.slice(1).map(url => `http${url}`);
   result.push('https://github.com/fxhxyz4');
 
-  console.info(result);
+	console.info(result);
 	validation(result);
 
 	refs.formEl.reset();

@@ -1,12 +1,16 @@
 ## changelog
 
+### v1.1.0
+
+- del website
+
 ### v1.0.5
 
 - update css
 
 ### v1.0.4
 
-- added [website](https://omu-beta.vercel.app)
+- added [website](https://fxhxyz-extensions.vercel.app)
 
 ### v1.0.3
 
